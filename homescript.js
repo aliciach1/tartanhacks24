@@ -1,4 +1,4 @@
-function yesnoCheck(that) {
+function sortSummary(that) {
     listHW = document.getElementsByClassName("homework");
     listTest = document.getElementsByClassName("test");
     listEvent = document.getElementsByClassName("event");
