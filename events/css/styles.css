@@ -79,6 +79,7 @@ body {
         min-height: 80vw;
         max-width: 20vw;
         font-size: 3vw;
+        max-height: 160vw;
         top: 3%;
       }
   }
@@ -87,6 +88,7 @@ body {
           min-width: 33%;
           min-height: 90vw;
           font-size: 5vw;
+          max-height: 240vw;
       }
   }
   @media all and (max-width: 450px) {
