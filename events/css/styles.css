@@ -29,7 +29,7 @@ body {
             transition: .35s opacity;
   }
   section time.blank {
-      min-height: 14vw; 
+      min-height: 45vw; 
   }
   section time a { 
       display: inline-block; 
