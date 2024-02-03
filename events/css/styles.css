@@ -92,3 +92,67 @@ body {
           font-size: 5vw;
       }
   }
+  .one_img {
+    transform: rotate(10deg);
+    padding-top: 80%;
+    padding-left: 10%;
+    height: 350px;
+    width: 130px;
+  }
+  .two_img1 {
+    transform: rotate(-10deg);
+    padding-top: 50%;
+    padding-left: 10%;
+    height: 280px;
+    width: 130px;
+  }
+  .two_img2 {
+    transform: rotate(10deg);
+    padding-top: 30%;
+    padding-left: 10%;
+    height: 280px;
+    width: 130px;
+  }
+  .three_img1 {
+    transform: rotate(-10deg);
+    padding-top: 30%;
+    padding-left: 10%;
+    height: 200px;
+    width: 100px;   
+  }
+  .three_img2 {
+    transform: rotate(10deg);
+    padding-top: 15%;
+    padding-left: 10%;
+    height: 200px;
+    width: 100px;
+  }
+  .four_img1 {
+    transform: rotate(-10deg);
+    padding-top: 20%;
+    padding-left: 10%;
+    height: 150px;
+    width: 90px;  
+  }
+  .four_img2 {
+    transform: rotate(10deg);
+    padding-top: 12%;
+    padding-left: 28%;
+    height: 150px;
+    width: 100px; ;
+  }
+  .five_img1 {
+    transform: rotate(-10deg);
+    padding-top: 13%;
+    padding-left: 10%;
+    height: 130px;
+    width: 80px;
+  }
+  .five_img2 {
+    transform: rotate(10deg);
+    padding-top: 12%;
+    padding-left: 28%;
+    height: 130px;
+    width: 80px; 
+    clear: both;
+  }
