@@ -46,3 +46,30 @@ function sortSummary(that) {
         }
     }
 }
+
+function addNote() {
+    var newDiv = document.createElement("div");
+    newDiv.className = 'group';
+
+    var inputElem = document.createElement("input");
+    inputElem.type = "textarea";
+    inputElem.style.height = "100px";
+    inputElem.style.width = "90%";
+    inputElem.style.padding = "2%";
+    newDiv.appendChild(inputElem);
+
+    var btnElem = document.createElement("button");
+    btnElem.type = "button";
+    btnElem.textContent = "-";
+    btnElem.style.border = "black";
+
+    btnElem.addEventListener("click", removeUrlBox);
+    newDiv.appendChild(btnElem);
+
+    var element = document.getElementById("NotesWrite");
+    element.appendChild(newDiv);
+}
+
+function removeUrlBox() {
+    this.closest('.group').remove();
+}
