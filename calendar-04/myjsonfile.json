@@ -1,0 +1,14 @@
+{
+  "table": [
+    {
+      "event": {
+        "name": "test",
+        "date": "09/04/2023",
+        "time": "10:00-12:00",
+        "recurring": [1, 2, 3],
+        "tag": "cmu"
+      }
+    },
+    { "id": 2, "square": 3 }
+  ]
+}
