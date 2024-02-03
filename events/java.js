@@ -8,6 +8,8 @@ var dates = document.querySelectorAll("section time.hidden");
 var img_count = 0;
 //Get img count idk hehe
 if (img_count == 1) {
+    var img1 = document.createElement("img");
+    
     //get date from the img
     //add img to html and add class accordingly
 } else if (img_count == 2) {
