@@ -29,7 +29,7 @@ body {
             transition: .35s opacity;
   }
   section time.blank {
-      min-height: 45vw; 
+      min-height: 50vw; 
   }
   section time a { 
       display: inline-block; 
@@ -73,7 +73,7 @@ body {
       section time.blank { display: none; }
       section time { 
           min-width: 20%;
-          max-height: 20vw;
+          min-height: 80vw;
           max-width: 20vw;
           font-size: 3vw;
       }
@@ -81,14 +81,14 @@ body {
   @media all and (max-width: 750px) {
       section time { 
           min-width: 33%;
-          max-height: 33vw;
+          min-height: 90vw;
           font-size: 5vw;
       }
   }
   @media all and (max-width: 450px) {
       section time { 
           min-width: 50%;
-          max-height: 50vw;
+          min-height: 90vw;
           font-size: 5vw;
       }
   }
