@@ -1,9 +1,9 @@
 body { 
-    background: #111;
+    background: #151515;
     font-family: Avenir, Helvetica, sans-serif;
 }
 h1 {
-    color: #fff;
+    color: #ffffff;
     font-family: serif;
     padding: 2%;
 }
@@ -33,7 +33,7 @@ section time {
     -webkit-transition: .35s opacity;
     transition: .35s opacity;
     overflow: hidden;
-    max-height: 100vw;
+    max-height: 120vw;
 }
 section time.blank {
     min-height: 50vw; 
@@ -51,7 +51,7 @@ span.caldate {
     z-index: 2;
     }
 section time.blank span.caldate {   
-    color: #333; 
+    color: #ffffff; 
 }
 section time a span.title { 
     width: 100%; height: 100%;
@@ -70,19 +70,17 @@ section time a:hover {
     border-bottom: none;
 }
 time:not(.blank) span { 
-    color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    color: #ffffff; text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
-section time a img { width: 100%; height: 19%;}
+section time a img { width: 100%;}
 
 .card {
     font-family: 'Montserrat', sans-serif;
 }
-.card-title {
-    font-family: 'Montserrat', sans-serif;
-}
 
 .img-card {
-    object-fit: fill;
+    height: 200px;
+    object-fit: cover;
 }
 
 .hidden { opacity: 0; }
