@@ -39,7 +39,65 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+  .navTop{
+    display: inline-block;
+    margin: 2%;
+}
 
+.headerText{
+    text-align: center;
+}
+
+.headerImg{
+    text-align: center;
+}
+
+.logo{
+    width:90%;
+}
+
+h1{
+    font-size:4.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rightSide{
+    text-align:right;
+}
+
+.card-img-top-two {
+    width: 30%;
+    text-align: center;
+}
+
+.blockBody{
+    /* margin: 2%; */
+    margin-top:0;
+    box-sizing:border-box;
+    width:100%;
+}
+
+.bodyContainers{
+    /* margin:1%; */
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 25px;
+    min-height: 600px;
+    box-sizing:content-box;
+    width:31%;
+}
+
+.under_5 {
+    display: inline;
+}
+.im_5 {
+    display: inline;
+}
+
+.formCustom{
+    max-width: fit-content;
+    display: inline
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -306,8 +364,7 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 500;
   line-height: 1.2; }
 
-h1, .h1 {
-  font-size: 2.5rem; }
+
 
 h2, .h2 {
   font-size: 2rem; }
