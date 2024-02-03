@@ -51,9 +51,9 @@ function addNote() {
     var newDiv = document.createElement("div");
     newDiv.className = 'group';
 
-    var inputElem = document.createElement("input");
+    var inputElem = document.createElement("textarea");
     inputElem.type = "textarea";
-    inputElem.style.height = "100px";
+    inputElem.style.maxHeight = "100px";
     inputElem.style.width = "90%";
     inputElem.style.padding = "2%";
     newDiv.appendChild(inputElem);
