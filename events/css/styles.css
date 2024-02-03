@@ -28,6 +28,7 @@ body {
     -webkit-transition: .35s opacity;
             transition: .35s opacity;
             overflow: hidden;
+    max-height: 200vw;
   }
   section time.blank {
       min-height: 50vw; 
@@ -118,14 +119,14 @@ body {
     transform: rotate(-10deg);
     padding-top: 30%;
     padding-left: 10%;
-    height: 200px;
+    height: 170px;
     width: 100px;   
   }
   .three_img2 {
     transform: rotate(10deg);
     padding-top: 15%;
     padding-left: 10%;
-    height: 200px;
+    height: 170px;
     width: 100px;
   }
   .four_img1 {
@@ -139,17 +140,17 @@ body {
     transform: rotate(10deg);
     padding-top: 12%;
     padding-left: 28%;
-    height: 150px;
-    width: 100px; ;
+    height: 160px;
+    width: 120px; ;
   }
-  .five_img1 {
+  .five_up_ten_img1 {
     transform: rotate(-10deg);
     padding-top: 24%;
     padding-left: 10%;
     height: 130px;
     width: 80px;
   }
-  .five_img2 {
+  .five_up_ten_img2 {
     transform: rotate(10deg);
     padding-top: 22%;
     padding-left: 12%;
@@ -157,3 +158,4 @@ body {
     width: 80px; 
     clear: both;
   }
+
