@@ -1,14 +1,36 @@
 {
-  "table": [
+  "events": [
     {
-      "event": {
-        "name": "test",
-        "date": "09/04/2023",
-        "time": "10:00-12:00",
-        "recurring": [1, 2, 3],
-        "tag": "cmu"
-      }
+        "occasion": " test ",
+        "year": 2024,
+        "month": 2,
+        "day": 3,
+        "time": "14:00",
+        "tag": "hw"
     },
-    { "id": 2, "square": 3 }
-  ]
-}
+    {
+      "occasion": " test ",
+      "year": 2024,
+      "month": 2,
+      "day": 4,
+      "time": "14:00",
+      "tag": "hw"
+    },
+        {
+          "occasion": " test ",
+          "year": 2024,
+          "month": 2,
+          "day": 5,
+          "time": "14:00",
+          "tag": "hw"
+    },
+    {
+      "occasion": " test ",
+      "year": 2024,
+      "month": 2,
+      "day": 3,
+      "time": "14:00",
+      "tag": "hw"
+    }
+    ]
+  }

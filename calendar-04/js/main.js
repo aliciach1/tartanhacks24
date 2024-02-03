@@ -236,91 +236,40 @@ console.log(json);
 // Given data for events in JSON format
 var event_data = {
     "events": [
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10
-    },
-        {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10,
-        "cancelled": true
-    },
-    {
-        "occasion": " Repeated Test Event ",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 10
-    },
-    {
-        "occasion": " Test Event",
-        "invited_count": 120,
-        "year": 2020,
-        "month": 5,
-        "day": 11
-    }
-    ]
-};
+      {
+          "occasion": " Written 3 ",
+          "year": 2024,
+          "month": 2,
+          "day": 3,
+          "time": "13:00",
+          "tag": "hw"
+      },
+      {
+        "occasion": " Social Psychology Test ",
+        "year": 2024,
+        "month": 2,
+        "day": 6,
+        "time": "14:00",
+        "tag": "Test"
+      },
+          {
+            "occasion": " Opera: Ottone in Villa ",
+            "year": 2024,
+            "month": 2,
+            "day": 6,
+            "time": "20:00",
+            "tag": "Event"
+      },
+      {
+        "occasion": "IS Miliuex Homework 4 ",
+        "year": 2024,
+        "month": 2,
+        "day": 8,
+        "time": "01:00",
+        "tag": "hw"
+      }
+      ]
+    };
 
 const months = [ 
     "January", 
