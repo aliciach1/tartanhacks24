@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>placeholder</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="css/style.css"> -->
+<link rel="stylesheet" href = "css/newevent.css">
+<link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+<!--link icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+
+    
+    <div class="mx-auto my-auto col-10 border " >
+        <img src="..." class="card-img-top" alt="...">
+        <div class="container">
+<!-- dropdown -->      
+            <div class = "row">
+                <p class = "col-3">Event: </p><input class = "col-5" type = "text">
+
+            </div>
+            <p></p>
+
+            <div class = "row">
+                <div class = "col text-center"><p class = "inline">start date: </p></div>
+                <input class = "col-2 text-center" type="date" id="start" name="trip-start" value="date-local" min="2024-01-01" max="2025-12-31" />
+                <div class = "col text-center"><p class = "inline">end date: </p></div>
+                <input class = "col-2 text-center" type="date" id="end" name="trip-end" value="date-local"  min="2024-01-01" max="2025-12-31" />
+            </div>    
+            <p></p>
+          
+
+
+            <div class = "row">
+                <div class = "col text-center"><p class = "inline">start time: </p></div>
+                <input class = "col-2 text-center" type="time" id="timestart" name="trip-start" value="time-local"/>
+                <div class = "col text-center"><p class = "inline">end time: </p></div>
+                <input class = "col-2 text-center" type="time" id="timeend" name="trip-end" value="time-local"/>
+            </div>        
+
+             <p> </p>
+<!-- day of the week picker-->
+            <div class = "row">
+                <div class="form-check col-1 mx-auto">
+                    <input class="form-check-input days" type="checkbox" value="" id="flexCheckDefault1">
+                    <label class="form-check-label" for="flexCheckDefault1">
+                        Sun
+                    </label>
+                </div>
+                <div class="form-check col-1 mx-auto">
+                    <input class="form-check-input days" type="checkbox" value="" id="flexCheckChecked1">
+                    <label class="form-check-label" for="flexCheckChecked1">
+                        M
+                    </label>
+                </div>
+                <div class="form-check col-1 mx-auto">
+                    <input class="form-check-input days" type="checkbox" value="" id="flexCheckDefault2">
+                    <label class="form-check-label" for="flexCheckDefault2">
+                        T
+                    </label>
+                </div>
+                <div class="form-check col-1 mx-auto">
+                    <input class="form-check-input days" type="checkbox" value="" id="flexCheckDefault3">
+                    <label class="form-check-label" for="flexCheckDefault3">
+                        W
+                    </label>
+                </div>
+                <div class="form-check col-1 mx-auto">
+                    <input class="form-check-input days" type="checkbox" value="" id="flexCheckDefault4">
+                    <label class="form-check-label" for="flexCheckDefault4">
+                        Th
+                    </label>
+                </div>
+                <div class="form-check col-1 mx-auto">
+                    <input class="form-check-input days" type="checkbox" value="" id="flexCheckDefault5">
+                    <label class="form-check-label" for="flexCheckDefault5">
+                        F
+                    </label>
+                </div>
+                <div class="form-check col-1 mx-auto">
+                <input class="form-check-input days" type="checkbox" value="" id="flexCheckDefault6">
+                <label class="form-check-label" for="flexCheckDefault6">
+                    Sat
+                </label>
+                </div>
+
+            </div>
+
+            <p>
+            </p>
+
+            <div class = "row">    
+                <p class = "col-2">select a tag: </p>
+                <select class = "col-2" name="tag" id="">
+                    <option value="">Sleep</option>
+                    <option value="">Social</option>
+                    <option value="">Homework</option>
+                    <option value="">Tests</option>
+                </select>
+            </div>
+
+            <p>
+
+
+            </p>
+            <div class="row">
+                <button class = "offset-10 col-2" type="button">Add to Calendar</button>
+            </div>    
+        </div>
+    </div>
+        
+        
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+</body>
+</html>
